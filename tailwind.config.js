@@ -6,20 +6,33 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        screens: {
+          sm: "100%",
+          md: "100%",
+          lg: "1024px",
+          xl: "1280px",
+          "2xl": "1580px",
+        },
+      },
       colors: {
-        'primary' :'#314584',
-        'secondary':'#ff3946',
-        'tertiary':'#6e757a'
+        primary: "#314584",
+        secondary: "#ff3946",
+        tertiary: "#6e757a",
       },
       fontFamily: {
-        body: ['work Sans']
+        body: ["work Sans"],
       },
       fontSize: {
-        navSize: "24px",
+        cardParaSize: "15px",
         textSize: "18px",
+        navSize: "24px",
+        cardSize: "28px",
         titleSize: "45px",
-        heroSize:"74px"
-      }
+        footerSize: "49px",
+        heroSize: "74px",
+        titleOne: "45px"
+      },
     },
   },
   plugins: [],
